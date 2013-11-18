@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 44
+Server.dll
+Server.pdb
+Common.dll
+Common.pdb
+
+END

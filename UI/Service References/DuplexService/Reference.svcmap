@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f6c793a2-3d72-41a1-b7bb-c6ddfae801f5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4379/DuplexService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DuplexService.xsd" MetadataType="Schema" ID="9472702e-8411-4755-8096-247de6906583" SourceId="1" SourceUrl="http://localhost:4379/DuplexService.svc?xsd=xsd2" />
+    <MetadataFile FileName="DuplexService.wsdl" MetadataType="Wsdl" ID="67fb2136-2efd-4580-8a89-37d12fa4be64" SourceId="1" SourceUrl="http://localhost:4379/DuplexService.svc?wsdl" />
+    <MetadataFile FileName="DuplexService4.xsd" MetadataType="Schema" ID="8d14b15d-d3e6-4489-be1c-bde2f4ef62c1" SourceId="1" SourceUrl="http://localhost:4379/DuplexService.svc?xsd=xsd4" />
+    <MetadataFile FileName="DuplexService1.wsdl" MetadataType="Wsdl" ID="85696c87-7503-42b5-9a68-6b417e7c76aa" SourceId="1" SourceUrl="http://localhost:4379/DuplexService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="DuplexService1.xsd" MetadataType="Schema" ID="8ac793d5-bb5b-49ff-b10a-58dab7b85492" SourceId="1" SourceUrl="http://localhost:4379/DuplexService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DuplexService2.xsd" MetadataType="Schema" ID="d3a5bf91-028b-4b19-8d3b-e271a7db34b8" SourceId="1" SourceUrl="http://localhost:4379/DuplexService.svc?xsd=xsd3" />
+    <MetadataFile FileName="DuplexService.disco" MetadataType="Disco" ID="af760171-55c1-4918-b9f7-1c03c3cc7911" SourceId="1" SourceUrl="http://localhost:4379/DuplexService.svc?disco" />
+    <MetadataFile FileName="DuplexService3.xsd" MetadataType="Schema" ID="765b652e-b0bf-4f99-8b4d-934dee3cfcc6" SourceId="1" SourceUrl="http://localhost:4379/DuplexService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

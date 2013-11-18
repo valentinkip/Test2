@@ -1,0 +1,8 @@
+C:\WORK\ManchkinQuest\Core\Bin\Debug\Core.dll
+C:\WORK\ManchkinQuest\Core\Bin\Debug\Core.pdb
+C:\WORK\ManchkinQuest\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\WORK\ManchkinQuest\Core\obj\Debug\Core.g.resources
+C:\WORK\ManchkinQuest\Core\obj\Debug\Core.dll
+C:\WORK\ManchkinQuest\Core\obj\Debug\Core.pdb
+C:\WORK\ManchkinQuest\Core\Bin\Debug\Common.dll
+C:\WORK\ManchkinQuest\Core\Bin\Debug\Common.pdb

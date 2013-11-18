@@ -1,0 +1,5 @@
+C:\WORK\ManchkinQuest\ExtractFromScan\bin\Debug\ExtractFromScan.exe
+C:\WORK\ManchkinQuest\ExtractFromScan\bin\Debug\ExtractFromScan.pdb
+C:\WORK\ManchkinQuest\ExtractFromScan\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\WORK\ManchkinQuest\ExtractFromScan\obj\x86\Debug\ExtractFromScan.exe
+C:\WORK\ManchkinQuest\ExtractFromScan\obj\x86\Debug\ExtractFromScan.pdb

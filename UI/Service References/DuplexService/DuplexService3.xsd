@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="Silverlight" elementFormDefault="qualified" targetNamespace="Silverlight" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:4379/DuplexService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ManchkinQuest.Server" />
+  <xs:import schemaLocation="http://localhost:4379/DuplexService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="StartLogin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StartLoginResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StartLoginResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AuthorizeLogin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="textEncoded" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AuthorizeLoginResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ManchkinQuest.Server" minOccurs="0" name="AuthorizeLoginResult" type="q1:AuthorizeLoginResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateNewGame">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="gameName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gamePasswordEncoded" nillable="true" type="xs:string" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ManchkinQuest.Server" minOccurs="0" name="players" nillable="true" type="q2:ArrayOfPlayerInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateNewGameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ManchkinQuest.Server" minOccurs="0" name="CreateNewGameResult" type="q3:CreateNewGameResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EndGame">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EndGameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ManchkinQuest.Server" minOccurs="0" name="EndGameResult" type="q4:EndGameResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StartAuthorizePlayer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="gameName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="playerName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StartAuthorizePlayerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StartAuthorizePlayerResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AuthorizePlayer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="textEncoded" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gameEventsCounter" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AuthorizePlayerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ManchkinQuest.Server" minOccurs="0" name="AuthorizePlayerResult" type="q5:AuthorizePlayerResult" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/ManchkinQuest.Server" minOccurs="0" name="players" nillable="true" type="q6:ArrayOfPlayerInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChangePlayerPassword">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="newPasswordEncoded" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChangePlayerPasswordResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/ManchkinQuest.Server" minOccurs="0" name="ChangePlayerPasswordResult" type="q7:ChangePlayerPasswordResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendGameEvents">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="events" nillable="true" type="q8:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendGameEventsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/ManchkinQuest.Server" minOccurs="0" name="SendGameEventsResult" type="q9:SendEventsResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GameEventsRecieved">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="newEventsCounter" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GameEventsRecievedResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReceiveGameEvents">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="events" nillable="true" type="q10:ArrayOfstring" />
+        <xs:element minOccurs="0" name="initialization" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StartGame">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadyStatusChange">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="isReady" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

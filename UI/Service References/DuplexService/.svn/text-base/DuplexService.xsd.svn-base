@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ManchkinQuest.Server" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ManchkinQuest.Server" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:4379/DuplexService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/ManchkinQuest.Common" />
+  <xs:simpleType name="AuthorizeLoginResult">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ok" />
+      <xs:enumeration value="NoLoginStarted" />
+      <xs:enumeration value="WrongNameOrPassword" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="AuthorizeLoginResult" nillable="true" type="tns:AuthorizeLoginResult" />
+  <xs:complexType name="ArrayOfPlayerInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PlayerInfo" nillable="true" type="tns:PlayerInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPlayerInfo" nillable="true" type="tns:ArrayOfPlayerInfo" />
+  <xs:complexType name="PlayerInfo">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ManchkinQuest.Common" name="_x003C_Color_x003E_k__BackingField" type="q1:PlayerColor" />
+      <xs:element name="_x003C_Name_x003E_k__BackingField" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ManchkinQuest.Common" name="_x003C_Sex_x003E_k__BackingField" type="q2:Sex" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PlayerInfo" nillable="true" type="tns:PlayerInfo" />
+  <xs:simpleType name="CreateNewGameResult">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ok" />
+      <xs:enumeration value="LoginRequired" />
+      <xs:enumeration value="YouHaveActiveGame" />
+      <xs:enumeration value="GameNameInUse" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="CreateNewGameResult" nillable="true" type="tns:CreateNewGameResult" />
+  <xs:simpleType name="EndGameResult">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ok" />
+      <xs:enumeration value="LoginRequired" />
+      <xs:enumeration value="YouHaveNoActiveGame" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="EndGameResult" nillable="true" type="tns:EndGameResult" />
+  <xs:simpleType name="AuthorizePlayerResult">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ok" />
+      <xs:enumeration value="NoAuthorizationStarted" />
+      <xs:enumeration value="NoSuchGame" />
+      <xs:enumeration value="NoSuchPlayer" />
+      <xs:enumeration value="WrongPassword" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="AuthorizePlayerResult" nillable="true" type="tns:AuthorizePlayerResult" />
+  <xs:simpleType name="ChangePlayerPasswordResult">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ok" />
+      <xs:enumeration value="NotRegistered" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ChangePlayerPasswordResult" nillable="true" type="tns:ChangePlayerPasswordResult" />
+  <xs:simpleType name="SendEventsResult">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ok" />
+      <xs:enumeration value="NotRegistered" />
+      <xs:enumeration value="NotReady" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="SendEventsResult" nillable="true" type="tns:SendEventsResult" />
+</xs:schema>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="Silverlight" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="Silverlight" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="Silverlight/Imports">
+      <xsd:import schemaLocation="http://localhost:4379/DuplexService.svc?xsd=xsd0" namespace="Silverlight" />
+      <xsd:import schemaLocation="http://localhost:4379/DuplexService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:4379/DuplexService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ManchkinQuest.Server" />
+      <xsd:import schemaLocation="http://localhost:4379/DuplexService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/ManchkinQuest.Common" />
+      <xsd:import schemaLocation="http://localhost:4379/DuplexService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDuplexService_StartLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:StartLogin" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_StartLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_AuthorizeLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:AuthorizeLogin" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_AuthorizeLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuthorizeLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_CreateNewGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewGame" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_CreateNewGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_EndGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:EndGame" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_EndGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EndGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_StartAuthorizePlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:StartAuthorizePlayer" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_StartAuthorizePlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartAuthorizePlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_AuthorizePlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:AuthorizePlayer" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_AuthorizePlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuthorizePlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_ChangePlayerPassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePlayerPassword" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_ChangePlayerPassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePlayerPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_SendGameEvents_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendGameEvents" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_SendGameEvents_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendGameEventsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GameEventsRecieved_InputMessage">
+    <wsdl:part name="parameters" element="tns:GameEventsRecieved" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_GameEventsRecieved_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GameEventsRecievedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_ReceiveGameEvents_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ReceiveGameEvents" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_StartGame_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:StartGame" />
+  </wsdl:message>
+  <wsdl:message name="IDuplexService_ReadyStatusChange_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ReadyStatusChange" />
+  </wsdl:message>
+  <wsdl:portType name="IDuplexService">
+    <wsdl:operation name="StartLogin">
+      <wsdl:input wsaw:Action="Silverlight/IDuplexService/StartLogin" message="tns:IDuplexService_StartLogin_InputMessage" />
+      <wsdl:output wsaw:Action="Silverlight/IDuplexService/StartLoginResponse" message="tns:IDuplexService_StartLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AuthorizeLogin">
+      <wsdl:input wsaw:Action="Silverlight/IDuplexService/AuthorizeLogin" message="tns:IDuplexService_AuthorizeLogin_InputMessage" />
+      <wsdl:output wsaw:Action="Silverlight/IDuplexService/AuthorizeLoginResponse" message="tns:IDuplexService_AuthorizeLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateNewGame">
+      <wsdl:input wsaw:Action="Silverlight/IDuplexService/CreateNewGame" message="tns:IDuplexService_CreateNewGame_InputMessage" />
+      <wsdl:output wsaw:Action="Silverlight/IDuplexService/CreateNewGameResponse" message="tns:IDuplexService_CreateNewGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EndGame">
+      <wsdl:input wsaw:Action="Silverlight/IDuplexService/EndGame" message="tns:IDuplexService_EndGame_InputMessage" />
+      <wsdl:output wsaw:Action="Silverlight/IDuplexService/EndGameResponse" message="tns:IDuplexService_EndGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StartAuthorizePlayer">
+      <wsdl:input wsaw:Action="Silverlight/IDuplexService/StartAuthorizePlayer" message="tns:IDuplexService_StartAuthorizePlayer_InputMessage" />
+      <wsdl:output wsaw:Action="Silverlight/IDuplexService/StartAuthorizePlayerResponse" message="tns:IDuplexService_StartAuthorizePlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AuthorizePlayer">
+      <wsdl:input wsaw:Action="Silverlight/IDuplexService/AuthorizePlayer" message="tns:IDuplexService_AuthorizePlayer_InputMessage" />
+      <wsdl:output wsaw:Action="Silverlight/IDuplexService/AuthorizePlayerResponse" message="tns:IDuplexService_AuthorizePlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePlayerPassword">
+      <wsdl:input wsaw:Action="Silverlight/IDuplexService/ChangePlayerPassword" message="tns:IDuplexService_ChangePlayerPassword_InputMessage" />
+      <wsdl:output wsaw:Action="Silverlight/IDuplexService/ChangePlayerPasswordResponse" message="tns:IDuplexService_ChangePlayerPassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendGameEvents">
+      <wsdl:input wsaw:Action="Silverlight/IDuplexService/SendGameEvents" message="tns:IDuplexService_SendGameEvents_InputMessage" />
+      <wsdl:output wsaw:Action="Silverlight/IDuplexService/SendGameEventsResponse" message="tns:IDuplexService_SendGameEvents_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GameEventsRecieved">
+      <wsdl:input wsaw:Action="Silverlight/IDuplexService/GameEventsRecieved" message="tns:IDuplexService_GameEventsRecieved_InputMessage" />
+      <wsdl:output wsaw:Action="Silverlight/IDuplexService/GameEventsRecievedResponse" message="tns:IDuplexService_GameEventsRecieved_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReceiveGameEvents">
+      <wsdl:output wsaw:Action="Silverlight/IDuplexService/ReceiveGameEvents" message="tns:IDuplexService_ReceiveGameEvents_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StartGame">
+      <wsdl:output wsaw:Action="Silverlight/IDuplexService/StartGame" message="tns:IDuplexService_StartGame_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReadyStatusChange">
+      <wsdl:output wsaw:Action="Silverlight/IDuplexService/ReadyStatusChange" message="tns:IDuplexService_ReadyStatusChange_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

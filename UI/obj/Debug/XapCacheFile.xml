@@ -1,0 +1,9 @@
+﻿<xapCache source="C:\WORK\ManchkinQuest\UI\Bin\Debug\UI.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="05.10.2010 0:28:59">
+  <file source="C:\WORK\ManchkinQuest\UI\obj\Debug\UI.dll" archivePath="UI.dll" lastWriteTime="05.10.2010 0:28:58" />
+  <file source="C:\WORK\ManchkinQuest\Common\Bin\Debug\Common.dll" archivePath="Common.dll" lastWriteTime="04.10.2010 16:21:47" />
+  <file source="C:\WORK\ManchkinQuest\Core\Bin\Debug\Core.dll" archivePath="Core.dll" lastWriteTime="04.10.2010 16:21:48" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ServiceModel.Extensions.dll" archivePath="System.ServiceModel.Extensions.dll" lastWriteTime="26.08.2010 2:17:48" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ServiceModel.PollingDuplex.dll" archivePath="System.ServiceModel.PollingDuplex.dll" lastWriteTime="26.08.2010 2:17:48" />
+  <file source="C:\WORK\ManchkinQuest\UI\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="13.09.2010 17:10:02" />
+  <file source="C:\WORK\ManchkinQuest\UI\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="04.10.2010 16:21:50" />
+</xapCache>

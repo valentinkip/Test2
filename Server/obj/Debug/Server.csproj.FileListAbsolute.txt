@@ -1,0 +1,8 @@
+C:\WORK\ManchkinQuest\Server\bin\Server.dll
+C:\WORK\ManchkinQuest\Server\bin\Server.pdb
+C:\WORK\ManchkinQuest\Server\bin\System.ServiceModel.PollingDuplex.dll
+C:\WORK\ManchkinQuest\Server\obj\Debug\ResolveAssemblyReference.cache
+C:\WORK\ManchkinQuest\Server\obj\Debug\Server.dll
+C:\WORK\ManchkinQuest\Server\obj\Debug\Server.pdb
+C:\WORK\ManchkinQuest\Server\bin\Common.dll
+C:\WORK\ManchkinQuest\Server\bin\Common.pdb

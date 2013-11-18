@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="ManchkinQuest.UI.GameTablePanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="733" d:DesignWidth="1209" xmlns:my="clr-namespace:ManchkinQuest.UI">
+
+    <Grid x:Name="LayoutRoot" Background="#E6B9DECD">
+    	<my:PlayerPanel x:Name="BottomPlayerPanel" Height="288" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="0,0,0,20" />
+        <my:PlayerPanel x:Name="TopPlayerPanel" Height="150" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="216,0,206,0" />
+        <my:PlayerPanel x:Name="LeftPlayerPanel" Width="150" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="0,0,0,306" />
+        <my:PlayerPanel x:Name="RightPlayerPanel" Width="150" HorizontalAlignment="Right" VerticalAlignment="Stretch" Margin="0,0,0,306" />
+        <my:MazePanel x:Name="MazePanel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="156,156,156,306"  />
+    	<TextBlock Name="StatusBar" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="20,710,20,0" FontSize="14" />
+    </Grid>
+</UserControl>

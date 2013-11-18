@@ -1,0 +1,1669 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="double" priority="29" />
+      <Item value="CardWidth" priority="5" />
+      <Item value="xStep" priority="1" />
+      <Item value="if" priority="97" />
+      <Item value="myImages" priority="2" />
+      <Item value="startX" priority="3" />
+      <Item value="i" priority="4" />
+      <Item value="return" priority="55" />
+      <Item value="new" priority="196" />
+      <Item value="Size" priority="10" />
+      <Item value="CardHeight" priority="3" />
+      <Item value="cardWidth" priority="0" />
+      <Item value="cardHeight" priority="0" />
+      <Item value="cardSize" priority="10" />
+      <Item value="CalcCardSize`0" priority="1" />
+      <Item value="availableSize" priority="6" />
+      <Item value="myHandCardsElement" priority="13" />
+      <Item value="CardSize" priority="9" />
+      <Item value="PlayerPanel`0" priority="2" />
+      <Item value="panel" priority="1" />
+      <Item value="myPanel" priority="2" />
+      <Item value="PlayerPanelPlacement`0" priority="4" />
+      <Item value="placement" priority="4" />
+      <Item value="myPlacement" priority="1" />
+      <Item value="LoadedEvent" priority="0" />
+      <Item value="size" priority="5" />
+      <Item value="myText" priority="5" />
+      <Item value="myRotationAngle" priority="10" />
+      <Item value="throw" priority="4" />
+      <Item value="ArgumentException" priority="0" />
+      <Item value="finalSize" priority="35" />
+      <Item value="handCardsW" priority="0" />
+      <Item value="handCardsH" priority="0" />
+      <Item value="RotationAngle" priority="0" />
+      <Item value="Rect" priority="15" />
+      <Item value="Point" priority="13" />
+      <Item value="handCardsX" priority="0" />
+      <Item value="handCardsY" priority="0" />
+      <Item value="myBorder" priority="5" />
+      <Item value="Point`0" priority="10" />
+      <Item value="x" priority="13" />
+      <Item value="transform" priority="5" />
+      <Item value="p" priority="8" />
+      <Item value="Cards" priority="8" />
+      <Item value="cardCenter" priority="3" />
+      <Item value="var" priority="2" />
+      <Item value="location" priority="12" />
+      <Item value="cardBounds" priority="2" />
+      <Item value="cardTransform" priority="3" />
+      <Item value="rotationPoint" priority="3" />
+      <Item value="RenderTransform" priority="5" />
+      <Item value="RotateTransform`0" priority="4" />
+      <Item value="Angle" priority="4" />
+      <Item value="CenterX" priority="11" />
+      <Item value="bounds" priority="3" />
+      <Item value="ArrangeElement`0" priority="0" />
+      <Item value="RotateTransform" priority="0" />
+      <Item value="elementTransform" priority="3" />
+      <Item value="globalTransform" priority="1" />
+      <Item value="CenterY" priority="6" />
+      <Item value="textSize" priority="1" />
+      <Item value="textH" priority="1" />
+      <Item value="space" priority="0" />
+      <Item value="MouseEnter" priority="0" />
+      <Item value="CreateAnonymousDelegate" priority="22" />
+      <Item value="Effect" priority="1" />
+      <Item value="ShaderEffect" priority="0" />
+      <Item value="BlurEffect" priority="1" />
+      <Item value="MouseLeave" priority="0" />
+      <Item value="MouseLeftButtonUpEvent" priority="0" />
+      <Item value="Cursor" priority="0" />
+      <Item value="Hand" priority="0" />
+      <Item value="DropShadowEffect`0" priority="0" />
+      <Item value="faceImage" priority="1" />
+      <Item value="BitmapSource`0" priority="4" />
+      <Item value="FaceImage" priority="0" />
+      <Item value="Images`0" priority="13" />
+      <Item value="DxMCardBase`0" priority="2" />
+      <Item value="DxMCardBase" priority="6" />
+      <Item value="ITreasureCard`0" priority="7" />
+      <Item value="IMonsterCard`0" priority="3" />
+      <Item value="ScaleTransform`0" priority="4" />
+      <Item value="ScaleX" priority="4" />
+      <Item value="ScaleY" priority="3" />
+      <Item value="ActualWidth" priority="0" />
+      <Item value="ActualHeight" priority="0" />
+      <Item value="null" priority="48" />
+      <Item value="Visibility" priority="0" />
+      <Item value="Collapsed" priority="3" />
+      <Item value="Visible" priority="1" />
+      <Item value="RadialGradientBrush`0" priority="0" />
+      <Item value="Colors`0" priority="4" />
+      <Item value="Action`0" priority="8" />
+      <Item value="myNavigationAction" priority="3" />
+      <Item value="MouseLeftButtonUp" priority="1" />
+      <Item value="navigationAction" priority="2" />
+      <Item value="public" priority="47" />
+      <Item value="interface" priority="9" />
+      <Item value="ICollection" priority="4" />
+      <Item value="IPlayer`0" priority="4" />
+      <Item value="Players" priority="1" />
+      <Item value="Player`0" priority="3" />
+      <Item value="IGame`0" priority="6" />
+      <Item value="players" priority="12" />
+      <Item value="private" priority="38" />
+      <Item value="myBottomPlayerPanel" priority="2" />
+      <Item value="true" priority="20" />
+      <Item value="IsActivePlayer" priority="1" />
+      <Item value="ICard`0" priority="2" />
+      <Item value="foreach" priority="18" />
+      <Item value="Children" priority="10" />
+      <Item value="CardElement`0" priority="3" />
+      <Item value="static" priority="16" />
+      <Item value="CardManager`0" priority="4" />
+      <Item value="panelSize" priority="2" />
+      <Item value="myCards" priority="1" />
+      <Item value="maxW" priority="0" />
+      <Item value="maxH" priority="2" />
+      <Item value="else" priority="15" />
+      <Item value="out" priority="5" />
+      <Item value="startY" priority="3" />
+      <Item value="CreateLocalVariable" priority="14" />
+      <Item value="cardElement" priority="6" />
+      <Item value="nx" priority="0" />
+      <Item value="requiredSize" priority="2" />
+      <Item value="y" priority="7" />
+      <Item value="const" priority="1" />
+      <Item value="SpaceX" priority="3" />
+      <Item value="SpaceY" priority="1" />
+      <Item value="CardsPanel`0" priority="0" />
+      <Item value="Player" priority="4" />
+      <Item value="cardsPanel" priority="4" />
+      <Item value="Center" priority="7" />
+      <Item value="Popup" priority="1" />
+      <Item value="popup" priority="13" />
+      <Item value="myPopup" priority="21" />
+      <Item value="readonly" priority="7" />
+      <Item value="Boolean`0" priority="0" />
+      <Item value="Border`0" priority="0" />
+      <Item value="UIElement`0" priority="10" />
+      <Item value="Popup`0" priority="1" />
+      <Item value="Application`0" priority="10" />
+      <Item value="void" priority="19" />
+      <Item value="UIElement" priority="0" />
+      <Item value="element" priority="38" />
+      <Item value="IUIManager`0" priority="0" />
+      <Item value="Opacity" priority="0" />
+      <Item value="IUIManager" priority="0" />
+      <Item value="UiManager" priority="0" />
+      <Item value="UIManager" priority="0" />
+      <Item value="myLeftPlayerPanel" priority="0" />
+      <Item value="BackgroundProperty" priority="0" />
+      <Item value="Background" priority="6" />
+      <Item value="SolidColorBrush`0" priority="3" />
+      <Item value="InvalidateArrange`0" priority="5" />
+      <Item value="panelPlacement" priority="3" />
+      <Item value="myInteractor" priority="0" />
+      <Item value="Placement" priority="1" />
+      <Item value="_panelPlacement" priority="0" />
+      <Item value="Bottom" priority="3" />
+      <Item value="myAutoZoomInteractor" priority="1" />
+      <Item value="EffectProperty" priority="0" />
+      <Item value="Stretch" priority="2" />
+      <Item value="MouseLeftButtonDown" priority="2" />
+      <Item value="false" priority="19" />
+      <Item value="KeyUpEvent" priority="0" />
+      <Item value="KeyDownEvent" priority="0" />
+      <Item value="Escape" priority="0" />
+      <Item value="e" priority="1" />
+      <Item value="ClosePopup`0" priority="1" />
+      <Item value="MouseMove" priority="0" />
+      <Item value="args" priority="20" />
+      <Item value="showFaces" priority="1" />
+      <Item value="Storyboard`0" priority="7" />
+      <Item value="Storyboard" priority="2" />
+      <Item value="Duration" priority="0" />
+      <Item value="TimeSpan" priority="1" />
+      <Item value="TimeSpan`0" priority="0" />
+      <Item value="AutoReverse" priority="0" />
+      <Item value="ShowPopup" priority="0" />
+      <Item value="myShowPopupAnimation" priority="2" />
+      <Item value="PropertyPath" priority="3" />
+      <Item value="DoubleAnimation`0" priority="2" />
+      <Item value="DoubleAnimation" priority="0" />
+      <Item value="To" priority="0" />
+      <Item value="StylusPoint`0" priority="0" />
+      <Item value="myStoryboard" priority="12" />
+      <Item value="this" priority="2" />
+      <Item value="Radius" priority="1" />
+      <Item value="blurEffect" priority="0" />
+      <Item value="BlurEffect`0" priority="0" />
+      <Item value="bool" priority="33" />
+      <Item value="animation" priority="4" />
+      <Item value="to" priority="0" />
+      <Item value="reverse" priority="5" />
+      <Item value="animation1" priority="2" />
+      <Item value="ReverseAnimation`0" priority="0" />
+      <Item value="onCompleted" priority="9" />
+      <Item value="storyboard" priority="2" />
+      <Item value="int" priority="46" />
+      <Item value="List&lt;Pair&lt;ITreasureCard,ICheatCard&gt;&gt;" priority="0" />
+      <Item value="List&lt;ITreasureCard&gt;" priority="0" />
+      <Item value="player" priority="21" />
+      <Item value="Pair&lt;ITreasureCard,ICheatCard&gt;" priority="0" />
+      <Item value="maxX" priority="3" />
+      <Item value="Math`0" priority="3" />
+      <Item value="originalMap" priority="3" />
+      <Item value="GetLength`0" priority="2" />
+      <Item value="startPoint" priority="2" />
+      <Item value="color" priority="5" />
+      <Item value="List" priority="5" />
+      <Item value="List&lt;Point&gt;" priority="0" />
+      <Item value="pointsToProcess" priority="0" />
+      <Item value="pixelsBitSet" priority="0" />
+      <Item value="targetMap" priority="1" />
+      <Item value="pixels" priority="0" />
+      <Item value="allPixels" priority="1" />
+      <Item value="width" priority="12" />
+      <Item value="height" priority="8" />
+      <Item value="colorMap" priority="5" />
+      <Item value="do" priority="1" />
+      <Item value="while" priority="1" />
+      <Item value="FillWithColor`1" priority="0" />
+      <Item value="Color`0" priority="6" />
+      <Item value="startPixel" priority="1" />
+      <Item value="colorToFill" priority="0" />
+      <Item value="currentColor" priority="2" />
+      <Item value="continue" priority="3" />
+      <Item value="borderColors" priority="4" />
+      <Item value="List&lt;int&gt;" priority="0" />
+      <Item value="borderPixels" priority="0" />
+      <Item value="CreateLambda" priority="32" />
+      <Item value="for" priority="5" />
+      <Item value="FillWithColors`0" priority="0" />
+      <Item value="imageMap" priority="6" />
+      <Item value="IEnumerable" priority="6" />
+      <Item value="Clone`0" priority="0" />
+      <Item value="PerimeterPoints`0" priority="0" />
+      <Item value="newImageMap" priority="3" />
+      <Item value="FillComponent`2" priority="0" />
+      <Item value="bitmap" priority="4" />
+      <Item value="magenta" priority="0" />
+      <Item value="transparentColor" priority="2" />
+      <Item value="Transparent" priority="0" />
+      <Item value="image" priority="7" />
+      <Item value="IRoom`0" priority="7" />
+      <Item value="enum" priority="3" />
+      <Item value="Direction`0" priority="3" />
+      <Item value="INormalRoom`0" priority="3" />
+      <Item value="AttributeUsage" priority="0" />
+      <Item value="Class" priority="0" />
+      <Item value="AllowMultiple" priority="0" />
+      <Item value="Inherited" priority="0" />
+      <Item value="Card" priority="2" />
+      <Item value="type" priority="3" />
+      <Item value="interfaceType" priority="1" />
+      <Item value="GetTypesByInterface`0" priority="0" />
+      <Item value="myTreasureCards" priority="0" />
+      <Item value="IDxMCard`0" priority="0" />
+      <Item value="myMonsterCards" priority="0" />
+      <Item value="IRoomCard`0" priority="3" />
+      <Item value="myRoomCards" priority="1" />
+      <Item value="IEnterRoom`0" priority="3" />
+      <Item value="EnterRoom" priority="2" />
+      <Item value="room" priority="1" />
+      <Item value="RoomCard`0" priority="0" />
+      <Item value="RoomBase`0" priority="1" />
+      <Item value="HallOfShameRoom`0" priority="0" />
+      <Item value="SeeminglyEmptyRoom`0" priority="0" />
+      <Item value="abstract" priority="3" />
+      <Item value="NormalRoomBase`0" priority="0" />
+      <Item value="BugHouseRoom`0" priority="0" />
+      <Item value="SpikedPitRoom`0" priority="0" />
+      <Item value="switch" priority="8" />
+      <Item value="myUpArrowColor" priority="1" />
+      <Item value="myLeftArrowColor" priority="0" />
+      <Item value="myRightArrowColor" priority="0" />
+      <Item value="myDownArrowColor" priority="0" />
+      <Item value="class" priority="12" />
+      <Item value="psr" priority="0" />
+      <Item value="RoomArrowColors`0" priority="2" />
+      <Item value="leftArrowColor" priority="0" />
+      <Item value="RoomLink`0" priority="0" />
+      <Item value="IRoomLink`0" priority="7" />
+      <Item value="RoomLinks" priority="1" />
+      <Item value="List&lt;IRoomLink&gt;" priority="0" />
+      <Item value="OperatingSystem`0" priority="0" />
+      <Item value="OpenPassageway" priority="0" />
+      <Item value="RegularDoor`0" priority="0" />
+      <Item value="LockedDoor`0" priority="0" />
+      <Item value="HiddenDoor`0" priority="0" />
+      <Item value="Wall`0" priority="0" />
+      <Item value="direction" priority="1" />
+      <Item value="Link" priority="0" />
+      <Item value="IMazeRoomInfo`0" priority="8" />
+      <Item value="IMaze`0" priority="3" />
+      <Item value="Maze" priority="7" />
+      <Item value="IMaze" priority="0" />
+      <Item value="struct" priority="2" />
+      <Item value="Dictionary" priority="5" />
+      <Item value="Coords`0" priority="1" />
+      <Item value="Dictionary&lt;Coords,RoomInfo&gt;" priority="0" />
+      <Item value="Dictionary&lt;Coords,IRoomLink&gt;" priority="0" />
+      <Item value="Coords" priority="4" />
+      <Item value="X" priority="0" />
+      <Item value="myRooms" priority="4" />
+      <Item value="info" priority="6" />
+      <Item value="Room`0" priority="0" />
+      <Item value="RoomInfo" priority="0" />
+      <Item value="cardManager" priority="0" />
+      <Item value="stuffManager" priority="9" />
+      <Item value="myLeftRoomLinks" priority="0" />
+      <Item value="Maze`0" priority="0" />
+      <Item value="StuffManager`0" priority="9" />
+      <Item value="Game`0" priority="1" />
+      <Item value="game" priority="16" />
+      <Item value="Game" priority="7" />
+      <Item value="player1" priority="2" />
+      <Item value="player2" priority="0" />
+      <Item value="player3" priority="0" />
+      <Item value="player4" priority="0" />
+      <Item value="aprop" priority="6" />
+      <Item value="Attribute" priority="0" />
+      <Item value="AutoZoomInteractor`0" priority="0" />
+      <Item value="roomInfo" priority="8" />
+      <Item value="RoomElement`0" priority="8" />
+      <Item value="myRoomElements" priority="3" />
+      <Item value="Dictionary&lt;IMazeRoomInfo,RoomElement&gt;" priority="0" />
+      <Item value="RoomElement" priority="0" />
+      <Item value="roomElement" priority="19" />
+      <Item value="allRooms" priority="0" />
+      <Item value="SolidColorBrush" priority="0" />
+      <Item value="minX" priority="1" />
+      <Item value="roomSize" priority="9" />
+      <Item value="totalW" priority="2" />
+      <Item value="MazePanel" priority="2" />
+      <Item value="mainPage" priority="3" />
+      <Item value="Update`0" priority="1" />
+      <Item value="activePlayerIndex" priority="0" />
+      <Item value="myActivePlayerIndex" priority="0" />
+      <Item value="playerIndex" priority="2" />
+      <Item value="myGame" priority="3" />
+      <Item value="Color" priority="1" />
+      <Item value="FromArgb`0" priority="1" />
+      <Item value="newImage" priority="7" />
+      <Item value="xx" priority="0" />
+      <Item value="yy" priority="0" />
+      <Item value="outv" priority="0" />
+      <Item value="break" priority="2" />
+      <Item value="transarentColor" priority="0" />
+      <Item value="g" priority="1" />
+      <Item value="using" priority="0" />
+      <Item value="Brush`0" priority="0" />
+      <Item value="brush" priority="1" />
+      <Item value="SolidBrush`0" priority="0" />
+      <Item value="ColorPalette`0" priority="0" />
+      <Item value="neighbour" priority="2" />
+      <Item value="any" priority="2" />
+      <Item value="all" priority="1" />
+      <Item value="IsContrastPixel`0" priority="0" />
+      <Item value="fileName" priority="1" />
+      <Item value="rotateAction" priority="1" />
+      <Item value="float" priority="0" />
+      <Item value="rotationAngle" priority="2" />
+      <Item value="ear" priority="0" />
+      <Item value="Append" priority="0" />
+      <Item value="link" priority="4" />
+      <Item value="Link`0" priority="0" />
+      <Item value="InvalidOperationException" priority="3" />
+      <Item value="RoomInfo`0" priority="0" />
+      <Item value="assembly" priority="0" />
+      <Item value="InternalsVisibleTo" priority="0" />
+      <Item value="roomLink" priority="0" />
+      <Item value="RoomLink" priority="0" />
+      <Item value="Vertical" priority="0" />
+      <Item value="myImage" priority="1" />
+      <Item value="Location`0" priority="0" />
+      <Item value="RoomLinkLocation`0" priority="2" />
+      <Item value="myRoomLinkElements" priority="4" />
+      <Item value="yield return" priority="0" />
+      <Item value="Left" priority="0" />
+      <Item value="RoomLinkLocation" priority="0" />
+      <Item value="RoomLinkElement" priority="0" />
+      <Item value="linkElement" priority="2" />
+      <Item value="myOpenPassageway" priority="0" />
+      <Item value="RoomLinkWidthToRoomSize" priority="0" />
+      <Item value="RoomCards" priority="0" />
+      <Item value="StuffManager" priority="1" />
+      <Item value="linkD" priority="0" />
+      <Item value="linkWidth" priority="5" />
+      <Item value="linkHeight" priority="13" />
+      <Item value="roomInfo1" priority="1" />
+      <Item value="Up" priority="1" />
+      <Item value="EnterRoomSizeToNormalRoomSize" priority="0" />
+      <Item value="step" priority="1" />
+      <Item value="linkStep" priority="0" />
+      <Item value="shiftY" priority="5" />
+      <Item value="shiftX" priority="2" />
+      <Item value="is" priority="3" />
+      <Item value="CalcSizes`0" priority="0" />
+      <Item value="totalH" priority="1" />
+      <Item value="long" priority="2" />
+      <Item value="string" priority="19" />
+      <Item value="CreateNewGameResult`0" priority="1" />
+      <Item value="byte" priority="4" />
+      <Item value="Tuple`0" priority="0" />
+      <Item value="UI" priority="1" />
+      <Item value="proxy" priority="1" />
+      <Item value="passwordCrc" priority="1" />
+      <Item value="CrcUtil" priority="0" />
+      <Item value="IncorrectLoginOrPassword" priority="1" />
+      <Item value="Dictionary&lt;long,GameInfo&gt;" priority="0" />
+      <Item value="IDuplexClient`0" priority="1" />
+      <Item value="GameInfo`0" priority="0" />
+      <Item value="EncryptionUtil`0" priority="7" />
+      <Item value="gamePasswordEncoded" priority="0" />
+      <Item value="password" priority="4" />
+      <Item value="CrcUtil`0" priority="0" />
+      <Item value="gamePassword" priority="2" />
+      <Item value="myPasswordCrcToGameInfo" priority="2" />
+      <Item value="GamePasswordInUse" priority="0" />
+      <Item value="lock" priority="9" />
+      <Item value="gamePasswordCrc" priority="1" />
+      <Item value="myClientToGameInfo" priority="0" />
+      <Item value="myLoginToGameInfo" priority="0" />
+      <Item value="IncorrectPlayerNameOrPassword" priority="0" />
+      <Item value="AuthorizeLoginResult`0" priority="0" />
+      <Item value="client" priority="1" />
+      <Item value="Random" priority="3" />
+      <Item value="myRandom" priority="3" />
+      <Item value="StringBuilder" priority="1" />
+      <Item value="builder" priority="2" />
+      <Item value="length" priority="0" />
+      <Item value="c" priority="0" />
+      <Item value="myAuthorizingClients" priority="4" />
+      <Item value="randomText" priority="0" />
+      <Item value="NoLoginStarted" priority="0" />
+      <Item value="Dictionary&lt;string,string&gt;" priority="0" />
+      <Item value="ourLoginAndPasswords" priority="1" />
+      <Item value="textToEncode" priority="3" />
+      <Item value="textEncoded" priority="0" />
+      <Item value="myAuthorizedClients" priority="1" />
+      <Item value="login" priority="2" />
+      <Item value="myProxy" priority="13" />
+      <Item value="EncryptionUtil" priority="0" />
+      <Item value="encryptedText" priority="0" />
+      <Item value="args1" priority="0" />
+      <Item value="Ok" priority="0" />
+      <Item value="EventArgs`0" priority="0" />
+      <Item value="CreateDelegate" priority="12" />
+      <Item value="myPassword" priority="3" />
+      <Item value="myLoginCompletedHandler" priority="3" />
+      <Item value="Service`0" priority="0" />
+      <Item value="service" priority="2" />
+      <Item value="success" priority="1" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="gameEvents" priority="3" />
+      <Item value="gameEventsCounter" priority="5" />
+      <Item value="playerInfo" priority="1" />
+      <Item value="gameInfo" priority="2" />
+      <Item value="eventsList" priority="3" />
+      <Item value="myPlayerClients" priority="0" />
+      <Item value="NotRegistered" priority="1" />
+      <Item value="newPasswordEncoded" priority="0" />
+      <Item value="newEventsCounter" priority="0" />
+      <Item value="PlatformID`0" priority="0" />
+      <Item value="CouldNotDeliver" priority="0" />
+      <Item value="EventQueueNotEmpty" priority="0" />
+      <Item value="events" priority="8" />
+      <Item value="Length" priority="2" />
+      <Item value="myGames" priority="0" />
+      <Item value="PlayerColor`0" priority="0" />
+      <Item value="Sex`0" priority="0" />
+      <Item value="Serializable" priority="0" />
+      <Item value="PlayerInfo`0" priority="4" />
+      <Item value="playerInfos" priority="3" />
+      <Item value="ArgumentOutOfRangeException" priority="0" />
+      <Item value="ArgumentException`0" priority="0" />
+      <Item value="PlayerInfo" priority="2" />
+      <Item value="itar" priority="0" />
+      <Item value="TextBlock`0" priority="0" />
+      <Item value="myTitle" priority="5" />
+      <Item value="TextBlock" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="HorizontalAlignment" priority="0" />
+      <Item value="Foreground" priority="0" />
+      <Item value="FontSize" priority="0" />
+      <Item value="FontWeight" priority="0" />
+      <Item value="Bold" priority="0" />
+      <Item value="encryptStringToString" priority="0" />
+      <Item value="ObservableCollection&lt;PlayerInfo&gt;" priority="0" />
+      <Item value="CreateNewGameCompletedHandler`0" priority="1" />
+      <Item value="myCreateNewGameCompletedHandler" priority="5" />
+      <Item value="myGameToCreateName" priority="0" />
+      <Item value="playerInfo1" priority="1" />
+      <Item value="Blue" priority="0" />
+      <Item value="Man" priority="0" />
+      <Item value="playerInfo2" priority="0" />
+      <Item value="success1" priority="1" />
+      <Item value="gameName" priority="1" />
+      <Item value="playerName" priority="0" />
+      <Item value="myEnterGameCompletedHandler" priority="6" />
+      <Item value="OperationCompletedHandler`0" priority="0" />
+      <Item value="completedHandler" priority="1" />
+      <Item value="myGamePassword" priority="2" />
+      <Item value="errorMessage2" priority="0" />
+      <Item value="ActivePlayer" priority="0" />
+      <Item value="activePlayerName" priority="1" />
+      <Item value="CreateSampleGame`0" priority="0" />
+      <Item value="playersCount" priority="2" />
+      <Item value="List&lt;Player&gt;" priority="0" />
+      <Item value="activePlayer" priority="0" />
+      <Item value="Location" priority="0" />
+      <Item value="myPlayerImages" priority="1" />
+      <Item value="List&lt;Image&gt;" priority="0" />
+      <Item value="Image`0" priority="0" />
+      <Item value="Source" priority="0" />
+      <Item value="Fill" priority="0" />
+      <Item value="tuple" priority="1" />
+      <Item value="Rect`0" priority="11" />
+      <Item value="innerArea" priority="4" />
+      <Item value="myPanelPlacement" priority="1" />
+      <Item value="value" priority="1" />
+      <Item value="UIManager`0" priority="16" />
+      <Item value="Instance" priority="1" />
+      <Item value="MainPage`0" priority="2" />
+      <Item value="myMainPage" priority="15" />
+      <Item value="UIManagerImpl`0" priority="0" />
+      <Item value="FrameworkElement`0" priority="0" />
+      <Item value="rect" priority="13" />
+      <Item value="myZoomedCard" priority="9" />
+      <Item value="zoomedCard" priority="0" />
+      <Item value="FastPopup" priority="9" />
+      <Item value="myFastPopupRect" priority="3" />
+      <Item value="Panel`0" priority="0" />
+      <Item value="UIElementCollection`0" priority="0" />
+      <Item value="Size`0" priority="1" />
+      <Item value="myElement" priority="1" />
+      <Item value="mySize" priority="0" />
+      <Item value="SizedElement`0" priority="4" />
+      <Item value="sizedElement" priority="4" />
+      <Item value="FastPopupRect" priority="0" />
+      <Item value="myFastPopup" priority="5" />
+      <Item value="override" priority="0" />
+      <Item value="myFastPopupElement" priority="4" />
+      <Item value="mousePos1" priority="0" />
+      <Item value="MouseEventArgs`0" priority="1" />
+      <Item value="myOriginalCard" priority="4" />
+      <Item value="CardElement" priority="0" />
+      <Item value="mousePos" priority="1" />
+      <Item value="Timer" priority="2" />
+      <Item value="timer" priority="6" />
+      <Item value="FromMilliseconds`0" priority="0" />
+      <Item value="where" priority="1" />
+      <Item value="TElement`0" priority="4" />
+      <Item value="Func" priority="2" />
+      <Item value="AutoZoomInteractor" priority="3" />
+      <Item value="myCreateZoomedElement" priority="0" />
+      <Item value="myOnZoomed" priority="0" />
+      <Item value="myOnUnzoomed" priority="0" />
+      <Item value="myOriginalElement" priority="0" />
+      <Item value="RoomZoomInteractor`0" priority="0" />
+      <Item value="myZoomInteractor" priority="1" />
+      <Item value="NotNull" priority="0" />
+      <Item value="myZoomedElementWidth" priority="0" />
+      <Item value="Foo`0" priority="0" />
+      <Item value="s" priority="1" />
+      <Item value="ZoomDirection`0" priority="1" />
+      <Item value="ZoomDirection" priority="4" />
+      <Item value="RotateElement" priority="1" />
+      <Item value="PanelPlacement" priority="0" />
+      <Item value="Down" priority="0" />
+      <Item value="RotateZoomed" priority="0" />
+      <Item value="element1" priority="0" />
+      <Item value="CreateZoomedElement`0" priority="0" />
+      <Item value="IEnterRoom" priority="0" />
+      <Item value="myOnFastPopupClosed" priority="2" />
+      <Item value="onClosed" priority="1" />
+      <Item value="CloseFastPopup`0" priority="0" />
+      <Item value="AnimatePopup`0" priority="0" />
+      <Item value="AnimateMainPopup`0" priority="1" />
+      <Item value="AnimateFastPopup`0" priority="0" />
+      <Item value="myBackgroundBlur" priority="5" />
+      <Item value="mySuspendWhenPopupShown" priority="0" />
+      <Item value="OnUnzoomed`0" priority="0" />
+      <Item value="suspendWhenPopupShown" priority="0" />
+      <Item value="myFastPopupInitialBackgroundBlur" priority="1" />
+      <Item value="myFastPopupInitialBackgroundD" priority="0" />
+      <Item value="BackgroundState`0" priority="0" />
+      <Item value="myFastPopupInitialBackgroundState" priority="3" />
+      <Item value="endElementOpacity" priority="0" />
+      <Item value="endBackgroundBlur" priority="0" />
+      <Item value="BackgroundState" priority="1" />
+      <Item value="Filling" priority="0" />
+      <Item value="myCurrentBackgroundState" priority="5" />
+      <Item value="targetBackgroundBlur" priority="0" />
+      <Item value="targetBackgroundOpacity" priority="0" />
+      <Item value="aPlayer" priority="4" />
+      <Item value="myRecievedEventsCounter" priority="1" />
+      <Item value="BinaryWriter" priority="0" />
+      <Item value="writer" priority="6" />
+      <Item value="BinaryReader`0" priority="1" />
+      <Item value="reader" priority="6" />
+      <Item value="IList" priority="3" />
+      <Item value="IGameEvent`0" priority="8" />
+      <Item value="MemoryStream" priority="0" />
+      <Item value="BinaryWriter`0" priority="0" />
+      <Item value="memoryStream" priority="1" />
+      <Item value="event" priority="5" />
+      <Item value="typeName" priority="2" />
+      <Item value="assertion" priority="1" />
+      <Item value="asrt" priority="3" />
+      <Item value="MemoryStream`0" priority="0" />
+      <Item value="bytes" priority="0" />
+      <Item value="stream" priority="0" />
+      <Item value="count" priority="0" />
+      <Item value="Assembly" priority="0" />
+      <Item value="Activator`0" priority="0" />
+      <Item value="@event" priority="0" />
+      <Item value="CoreUtil" priority="0" />
+      <Item value="CoreUtil`0" priority="0" />
+      <Item value="ObservableCollection&lt;string&gt;" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="decryptedEvents" priority="0" />
+      <Item value="ServerCommunicator`0" priority="1" />
+      <Item value="serverCommunicator" priority="6" />
+      <Item value="GameEventApplied" priority="1" />
+      <Item value="IsReady" priority="0" />
+      <Item value="myIsReady" priority="0" />
+      <Item value="IsReadyChanged" priority="1" />
+      <Item value="TCard`0" priority="4" />
+      <Item value="ICardDeck" priority="1" />
+      <Item value="seed" priority="1" />
+      <Item value="Discards" priority="4" />
+      <Item value="List&lt;TCard&gt;" priority="3" />
+      <Item value="allCards" priority="0" />
+      <Item value="cards" priority="6" />
+      <Item value="ShuffleCards`0" priority="1" />
+      <Item value="card" priority="2" />
+      <Item value="n1" priority="1" />
+      <Item value="card2" priority="0" />
+      <Item value="DxMCardDeck" priority="0" />
+      <Item value="CardDeck" priority="0" />
+      <Item value="TreasureCardDeck" priority="0" />
+      <Item value="MonsterCardDeck" priority="0" />
+      <Item value="mySeed" priority="2" />
+      <Item value="SendEvents`0" priority="0" />
+      <Item value="InitializeDecksEvent" priority="0" />
+      <Item value="myCount" priority="1" />
+      <Item value="myPlayerName" priority="2" />
+      <Item value="name" priority="0" />
+      <Item value="myCardCount" priority="0" />
+      <Item value="HandCards" priority="0" />
+      <Item value="TakeDxMCardsEvent`0" priority="0" />
+      <Item value="TakeTreasureCardsEvent`0" priority="0" />
+      <Item value="myStartGameHandler" priority="2" />
+      <Item value="startGameHandler" priority="0" />
+      <Item value="StartGame`0" priority="0" />
+      <Item value="myStartGameOnGameSet" priority="2" />
+      <Item value="PlaneProjection" priority="2" />
+      <Item value="RotationX" priority="3" />
+      <Item value="Projection" priority="0" />
+      <Item value="PlaneProjection`0" priority="4" />
+      <Item value="CenterOfRotationX" priority="0" />
+      <Item value="LocalOffsetX" priority="1" />
+      <Item value="LocalOffsetY" priority="1" />
+      <Item value="planeProjection" priority="4" />
+      <Item value="Matrix" priority="0" />
+      <Item value="scale" priority="8" />
+      <Item value="endOpacity" priority="0" />
+      <Item value="XStep" priority="0" />
+      <Item value="DependencyProperty`0" priority="1" />
+      <Item value="HandCardsElement`0" priority="4" />
+      <Item value="Type`0" priority="0" />
+      <Item value="typeof" priority="0" />
+      <Item value="PropertyMetadata" priority="0" />
+      <Item value="DefaultXStep" priority="0" />
+      <Item value="o" priority="0" />
+      <Item value="propertyPath" priority="0" />
+      <Item value="params" priority="0" />
+      <Item value="AnimationInfo`0" priority="12" />
+      <Item value="animationInfos" priority="1" />
+      <Item value="animationInfo" priority="6" />
+      <Item value="animations" priority="9" />
+      <Item value="AnimationInfo" priority="2" />
+      <Item value="myDisplayCardCount" priority="0" />
+      <Item value="displayCardCount" priority="2" />
+      <Item value="DependencyObject`0" priority="0" />
+      <Item value="endCardWidth" priority="0" />
+      <Item value="endCardHeight" priority="0" />
+      <Item value="endXStep" priority="0" />
+      <Item value="MaxAngle" priority="1" />
+      <Item value="CalcEndAngle`0" priority="0" />
+      <Item value="projection" priority="0" />
+      <Item value="UIUtil`0" priority="3" />
+      <Item value="Concat`1" priority="1" />
+      <Item value="additionalAnimations" priority="2" />
+      <Item value="duration" priority="1" />
+      <Item value="animation2" priority="0" />
+      <Item value="animation3" priority="0" />
+      <Item value="PopupData`0" priority="0" />
+      <Item value="myPopupData" priority="10" />
+      <Item value="PopupData" priority="0" />
+      <Item value="myFastPopupData" priority="3" />
+      <Item value="InvalidateMeasure`0" priority="0" />
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+      <Item value="myHeight" priority="0" />
+      <Item value="startRect" priority="3" />
+      <Item value="endRect" priority="5" />
+      <Item value="popupData" priority="5" />
+      <Item value="startOpacity" priority="0" />
+      <Item value="widthAnimation" priority="0" />
+      <Item value="heightAnimation" priority="0" />
+      <Item value="xAnimation" priority="0" />
+      <Item value="yAnimation" priority="0" />
+      <Item value="ShowPopup`0" priority="0" />
+      <Item value="animationDuration" priority="0" />
+      <Item value="point00" priority="1" />
+      <Item value="point11" priority="0" />
+      <Item value="mainWindow" priority="1" />
+      <Item value="Content" priority="0" />
+      <Item value="gameTablePanel" priority="2" />
+      <Item value="RootVisual" priority="1" />
+      <Item value="rootVisual" priority="8" />
+      <Item value="MainWindow" priority="0" />
+      <Item value="PopupElement" priority="0" />
+      <Item value="NavigationAction" priority="0" />
+      <Item value="DisplayHandCards`0" priority="0" />
+      <Item value="Timer`0" priority="0" />
+      <Item value="GameTablePanel`0" priority="1" />
+      <Item value="GameTablePanel" priority="0" />
+      <Item value="center" priority="1" />
+      <Item value="tablePanel" priority="0" />
+      <Item value="RenderSize" priority="1" />
+      <Item value="rectToZoom" priority="4" />
+      <Item value="scaleH" priority="1" />
+      <Item value="App`0" priority="0" />
+      <Item value="TranslateTransform`0" priority="2" />
+      <Item value="centerX" priority="4" />
+      <Item value="rectCenterX" priority="1" />
+      <Item value="centerY" priority="2" />
+      <Item value="rectCenterY" priority="0" />
+      <Item value="TransformGroup`0" priority="1" />
+      <Item value="transformGroup" priority="2" />
+      <Item value="scaleTransform" priority="1" />
+      <Item value="translateTransform" priority="1" />
+      <Item value="myScaleTransform" priority="2" />
+      <Item value="StartAnimation`0" priority="0" />
+      <Item value="IEnumerable&lt;AnimationInfo&gt;" priority="0" />
+      <Item value="myTranslateTransform" priority="2" />
+      <Item value="myPlaneProjection" priority="2" />
+      <Item value="SavedTransform`0" priority="1" />
+      <Item value="mySavedTransform" priority="0" />
+      <Item value="TranslateTransform" priority="1" />
+      <Item value="ScaleTransform" priority="1" />
+      <Item value="savedTransform" priority="0" />
+      <Item value="TransformData`0" priority="0" />
+      <Item value="data" priority="0" />
+      <Item value="LocalOffsetZ" priority="0" />
+      <Item value="TransformData" priority="1" />
+      <Item value="myCurrentTransformData" priority="3" />
+      <Item value="newTranslateTransform" priority="3" />
+      <Item value="newScaleTransform" priority="5" />
+      <Item value="newPlaneProjection" priority="4" />
+      <Item value="mySavedTransformData" priority="4" />
+      <Item value="AnimateTo`0" priority="0" />
+      <Item value="IEasingFunction" priority="0" />
+      <Item value="EasingFunction" priority="2" />
+      <Item value="QuadraticEase" priority="0" />
+      <Item value="ExponentialEase`0" priority="0" />
+      <Item value="BounceEase`0" priority="0" />
+      <Item value="QuadraticEase`0" priority="1" />
+      <Item value="PowerEase`0" priority="0" />
+      <Item value="EasingMode" priority="0" />
+      <Item value="Power" priority="0" />
+      <Item value="zoomedElement" priority="0" />
+      <Item value="mainSize" priority="0" />
+      <Item value="endWidth" priority="0" />
+      <Item value="endHeight" priority="0" />
+      <Item value="EndValue" priority="0" />
+      <Item value="StartValue" priority="0" />
+      <Item value="animationsOnClose" priority="0" />
+      <Item value="animate" priority="0" />
+      <Item value="close" priority="1" />
+      <Item value="myOnAnimationCompleted" priority="4" />
+      <Item value="restoreBackground" priority="2" />
+      <Item value="Unzoom`0" priority="0" />
+      <Item value="newH" priority="0" />
+      <Item value="newW" priority="0" />
+      <Item value="closeImmediately" priority="1" />
+      <Item value="virtual" priority="1" />
+      <Item value="protected" priority="0" />
+      <Item value="MazePanelBase`0" priority="0" />
+      <Item value="MazeFragmentElement`0" priority="0" />
+      <Item value="forceCloseImmediately" priority="0" />
+      <Item value="containsEnter" priority="0" />
+      <Item value="myNavigated" priority="0" />
+      <Item value="playerPanel" priority="8" />
+      <Item value="AddEventHandlers`0" priority="0" />
+      <Item value="BottomPlayerPanel" priority="0" />
+      <Item value="TopPlayerPanel" priority="0" />
+      <Item value="LeftPlayerPanel" priority="1" />
+      <Item value="RightPlayerPanel" priority="1" />
+      <Item value="zoomPanel" priority="3" />
+      <Item value="UserControl" priority="0" />
+      <Item value="zoomedPlayerPanel" priority="1" />
+      <Item value="zoomedControl" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="4" />
+      <Item value="Add`0" priority="6" />
+      <Item value="Any`1" priority="0" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="AddRange`0" priority="0" />
+      <Item value="Where`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Size">
+      <Item value="Equals`0" priority="0" />
+      <Item value="Width" priority="50" />
+      <Item value="Height" priority="47" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.UI.HandCardsElement">
+      <Item value="CardSize" priority="1" />
+      <Item value="Measure`0" priority="0" />
+      <Item value="DesiredSize" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.UI.PlayerPanelPlacement">
+      <Item value="IsHorizontal`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Border">
+      <Item value="RenderTransform" priority="0" />
+      <Item value="Visibility" priority="0" />
+      <Item value="Arrange`0" priority="0" />
+      <Item value="BorderThickness" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.RotateTransform">
+      <Item value="Transform`0" priority="2" />
+      <Item value="TransformBounds`0" priority="1" />
+      <Item value="CenterX" priority="2" />
+      <Item value="CenterY" priority="1" />
+      <Item value="Angle" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Rect">
+      <Item value="X" priority="7" />
+      <Item value="Y" priority="2" />
+      <Item value="Width" priority="7" />
+      <Item value="Height" priority="8" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="Bottom" priority="0" />
+      <Item value="Top" priority="0" />
+      <Item value="Left" priority="0" />
+      <Item value="Right" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Point">
+      <Item value="X" priority="3" />
+      <Item value="Y" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBlock">
+      <Item value="RenderTransform" priority="1" />
+      <Item value="Arrange`0" priority="0" />
+      <Item value="LineHeight" priority="0" />
+      <Item value="FontSize" priority="1" />
+      <Item value="Measure`0" priority="0" />
+      <Item value="DesiredSize" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Input.Cursors">
+      <Item value="Arrow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.Core.Images">
+      <Item value="DxMCardBack" priority="3" />
+      <Item value="TreasureCardBack" priority="0" />
+      <Item value="MonsterCardBack" priority="1" />
+      <Item value="LoadImage`0" priority="4" />
+      <Item value="RedManchkin" priority="1" />
+      <Item value="GreenManchkin" priority="0" />
+      <Item value="BlueManchkin" priority="0" />
+      <Item value="YellowManchkin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Visibility">
+      <Item value="Collapsed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Colors">
+      <Item value="Red" priority="0" />
+      <Item value="White" priority="0" />
+      <Item value="Cyan" priority="1" />
+      <Item value="Magenta" priority="0" />
+      <Item value="Orange" priority="0" />
+      <Item value="Gray" priority="0" />
+      <Item value="Blue" priority="1" />
+      <Item value="Green" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.UI.PlayerPanel">
+      <Item value="IsActivePlayer" priority="0" />
+      <Item value="Update`0" priority="0" />
+      <Item value="UIManager" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.UIElementCollection">
+      <Item value="Add`0" priority="11" />
+      <Item value="OfType`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.Core.CardManager">
+      <Item value="CardImageWidthToHeight" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Count" priority="14" />
+      <Item value="Add`0" priority="3" />
+      <Item value="All`1" priority="1" />
+      <Item value="Select`2" priority="0" />
+      <Item value="IndexOf`0" priority="0" />
+      <Item value="Where`1" priority="0" />
+      <Item value="RemoveAt`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.UI.CardElement">
+      <Item value="Measure`0" priority="0" />
+      <Item value="Arrange`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.Player">
+      <Item value="HandCards" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Application">
+      <Item value="Current" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Application">
+      <Item value="RootVisual" priority="6" />
+      <Item value="Resources" priority="0" />
+      <Item value="MainWindow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.UI.CardsPanel">
+      <Item value="HorizontalAlignment" priority="0" />
+      <Item value="VerticalAlignment" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Primitives.Popup">
+      <Item value="Child" priority="10" />
+      <Item value="IsOpen" priority="10" />
+      <Item value="Opened" priority="0" />
+      <Item value="VerticalAlignment" priority="0" />
+      <Item value="HorizontalAlignment" priority="0" />
+      <Item value="VerticalOffset" priority="6" />
+      <Item value="DesiredSize" priority="0" />
+      <Item value="HorizontalOffset" priority="5" />
+      <Item value="Closed" priority="0" />
+      <Item value="CaptureMouse`0" priority="0" />
+      <Item value="Opacity" priority="2" />
+      <Item value="Name" priority="0" />
+      <Item value="Arrange`0" priority="3" />
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="1" />
+      <Item value="InvalidateArrange`0" priority="0" />
+      <Item value="RenderSize" priority="0" />
+      <Item value="HorizontalOffsetProperty" priority="0" />
+      <Item value="VerticalOffsetProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.UI.IUIManager">
+      <Item value="ShowInPopup`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.UI.AutoZoomInteractor">
+      <Item value="ArrangeControls`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.KeyEventArgs">
+      <Item value="Key" priority="0" />
+      <Item value="Handled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.MouseButtonEventArgs">
+      <Item value="Handled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.ICard">
+      <Item value="FaceImage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="FromSeconds`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Animation.Storyboard">
+      <Item value="Begin`0" priority="1" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Children" priority="1" />
+      <Item value="Completed" priority="2" />
+      <Item value="Stop`0" priority="1" />
+      <Item value="Pause`0" priority="1" />
+      <Item value="GetCurrentState`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Animation.Storyboard">
+      <Item value="SetTarget`0" priority="0" />
+      <Item value="SetTargetProperty`0" priority="0" />
+      <Item value="SetTargetName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Animation.TimelineCollection">
+      <Item value="Add`0" priority="0" />
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.UIElement">
+      <Item value="Opacity" priority="3" />
+      <Item value="Effect" priority="0" />
+      <Item value="Measure`0" priority="1" />
+      <Item value="Arrange`0" priority="0" />
+      <Item value="RenderSize" priority="5" />
+      <Item value="DesiredSize" priority="1" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="KeyDown" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Effects.BlurEffect">
+      <Item value="RadiusProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Animation.DoubleAnimation">
+      <Item value="From" priority="2" />
+      <Item value="To" priority="1" />
+      <Item value="EasingFunction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.CardManager">
+      <Item value="TreasureCards" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Max`0" priority="0" />
+      <Item value="Min`0" priority="0" />
+      <Item value="Sign`0" priority="0" />
+      <Item value="Sin`0" priority="1" />
+      <Item value="PI" priority="0" />
+      <Item value="Cos`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="X" priority="3" />
+      <Item value="Y" priority="1" />
+      <Item value="Neighbours`0" priority="1" />
+      <Item value="IsBorderPoint`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="All`1" priority="0" />
+      <Item value="Select`2" priority="5" />
+      <Item value="Min`2" priority="0" />
+      <Item value="Max`2" priority="0" />
+      <Item value="ToArray`1" priority="2" />
+      <Item value="Where`1" priority="0" />
+      <Item value="First`1" priority="0" />
+      <Item value="Cast`1" priority="0" />
+      <Item value="ToList`1" priority="2" />
+      <Item value="Any`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Rectangle">
+      <Item value="Contains`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="SetPixel`0" priority="0" />
+      <Item value="MakeTransparent`0" priority="2" />
+      <Item value="Width" priority="2" />
+      <Item value="Height" priority="3" />
+      <Item value="GetPixel`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="IsAbstract" priority="1" />
+      <Item value="IsAssignableFrom`0" priority="0" />
+      <Item value="FullName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.Core.RoomArrowColors">
+      <Item value="Orange" priority="2" />
+      <Item value="Blue" priority="2" />
+      <Item value="Yellow" priority="2" />
+      <Item value="Green" priority="1" />
+      <Item value="Red" priority="2" />
+      <Item value="Magenta" priority="0" />
+      <Item value="Cyan" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.Impl.Maze">
+      <Item value="myLeftRoomLinks" priority="0" />
+      <Item value="myUpRoomLinks" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="TryGetValue`0" priority="4" />
+      <Item value="Values" priority="1" />
+      <Item value="Add`0" priority="5" />
+      <Item value="ContainsKey`0" priority="2" />
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2+ValueCollection">
+      <Item value="Cast`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.StuffManager">
+      <Item value="OpenPassageway" priority="2" />
+      <Item value="RoomCards" priority="0" />
+      <Item value="RoomLinkWidthToRoomSize" priority="0" />
+      <Item value="RoomLinkWidthToHeight" priority="0" />
+      <Item value="RegularDoor" priority="0" />
+      <Item value="LockedDoor" priority="0" />
+      <Item value="HiddenDoor" priority="0" />
+      <Item value="Wall" priority="0" />
+      <Item value="RoomLinkGapToHeight" priority="0" />
+      <Item value="RoomLinkJunctionToHeight" priority="2" />
+      <Item value="EnterRoomSizeToNormalRoomSize" priority="1" />
+      <Item value="TreasureCards" priority="0" />
+      <Item value="MonsterCards" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.IMazeRoomInfo">
+      <Item value="Room" priority="2" />
+      <Item value="X" priority="3" />
+      <Item value="Link`0" priority="0" />
+      <Item value="Y" priority="0" />
+      <Item value="SetLink`0" priority="0" />
+      <Item value="IsEnter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.IRoom">
+      <Item value="Image" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.IMaze">
+      <Item value="AllRooms" priority="1" />
+      <Item value="AddRoom`0" priority="0" />
+      <Item value="Enter" priority="0" />
+      <Item value="Room`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.UI.RoomElement">
+      <Item value="Arrange`0" priority="0" />
+      <Item value="RoomInfo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.IGame">
+      <Item value="Players" priority="7" />
+      <Item value="InitializeDecks`0" priority="0" />
+      <Item value="PlayerByName`0" priority="0" />
+      <Item value="DxMCardDeck" priority="1" />
+      <Item value="TreasureCardDeck" priority="0" />
+      <Item value="Maze" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.UI.MazePanel">
+      <Item value="Maze" priority="0" />
+      <Item value="Update`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.UI.MainPage">
+      <Item value="Game" priority="0" />
+      <Item value="Update`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Color">
+      <Item value="A" priority="0" />
+      <Item value="IsDifferentFromColor`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Graphics">
+      <Item value="FillRectangle`0" priority="0" />
+      <Item value="TranslateTransform`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Magenta" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.ImageFormat">
+      <Item value="Gif" priority="0" />
+      <Item value="Png" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Double">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.Impl.Game">
+      <Item value="Maze" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.IRoomCard">
+      <Item value="Side1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Image">
+      <Item value="RenderTransform" priority="0" />
+      <Item value="Arrange`0" priority="0" />
+      <Item value="Measure`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.Core.Direction">
+      <Item value="Right" priority="3" />
+      <Item value="Up" priority="2" />
+      <Item value="Down" priority="4" />
+      <Item value="Left" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.Core.CoreUtil">
+      <Item value="EnumerateDirections`0" priority="0" />
+      <Item value="DeserializeEvent`0" priority="0" />
+      <Item value="SerializeEvent`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.UI.RoomLinkElement">
+      <Item value="Location" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.Impl.OpenPassageway">
+      <Item value="Image" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Imaging.BitmapSource">
+      <Item value="PixelHeight" priority="0" />
+      <Item value="PixelWidth" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.Core.StuffManager">
+      <Item value="Instance" priority="3" />
+      <Item value="RoomLinkJunctionToHeight" priority="1" />
+      <Item value="ManchkinImageWidthToHeight" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.UI.RoomLinkLocation">
+      <Item value="Vertical" priority="1" />
+      <Item value="Y" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.Impl.Maze+Coords">
+      <Item value="Y" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Tuple">
+      <Item value="Create`2" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.DuplexService.DuplexServiceClient">
+      <Item value="CreateNewGameAsync`0" priority="1" />
+      <Item value="CreateNewGameCompleted" priority="1" />
+      <Item value="StartLoginAsync`0" priority="0" />
+      <Item value="StartLoginCompleted" priority="0" />
+      <Item value="AuthorizeReceived" priority="1" />
+      <Item value="AuthorizeLoginAsync`0" priority="0" />
+      <Item value="AuthorizeLoginCompleted" priority="1" />
+      <Item value="StartAuthorizePlayerAsync`0" priority="0" />
+      <Item value="StartAuthorizePlayerCompleted" priority="0" />
+      <Item value="AuthorizePlayerCompleted" priority="0" />
+      <Item value="AuthorizePlayerAsync`0" priority="0" />
+      <Item value="ReceiveGameEventsReceived" priority="0" />
+      <Item value="GameEventsRecievedAsync`0" priority="0" />
+      <Item value="SendGameEventsAsync`0" priority="0" />
+      <Item value="ReadyStatusChangeReceived" priority="0" />
+      <Item value="StartGameReceived" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.DuplexService.CreateNewGameCompletedEventArgs">
+      <Item value="Result" priority="1" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="Error" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.Common.CrcUtil">
+      <Item value="CalcCRC`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.Common.EncryptionUtil">
+      <Item value="DecryptStringFromString`0" priority="1" />
+      <Item value="EncryptStringToString`0" priority="2" />
+      <Item value="DecryptBytesFromString`0" priority="1" />
+      <Item value="EncryptBytesToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Server.IDuplexClient">
+      <Item value="Authorize`0" priority="0" />
+      <Item value="StartGame`0" priority="0" />
+      <Item value="ReceiveGameEvents`0" priority="0" />
+      <Item value="ReadyStatusChange`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals`0" priority="0" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Tuple`2">
+      <Item value="Item1" priority="1" />
+      <Item value="Item2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.DuplexService.AuthorizeReceivedEventArgs">
+      <Item value="textToEncode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.DuplexService.AuthorizeLoginCompletedEventArgs">
+      <Item value="Result" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.Service">
+      <Item value="Login`0" priority="0" />
+      <Item value="CreateNewGame`0" priority="0" />
+      <Item value="EnterGame`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Server.DuplexService+PlayerInfo">
+      <Item value="EventsReceived" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Server.DuplexService+GameInfo">
+      <Item value="GameEvents" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Server.DuplexService+StartAuthorizePlayerInfo">
+      <Item value="TextToEncode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Server.DuplexService+Player">
+      <Item value="Password" priority="4" />
+      <Item value="EventsReceived" priority="1" />
+      <Item value="Game" priority="3" />
+      <Item value="Client" priority="4" />
+      <Item value="Name" priority="1" />
+      <Item value="Color" priority="0" />
+      <Item value="Sex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Server.DuplexService+Game">
+      <Item value="Events" priority="3" />
+      <Item value="Players" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.UI.DuplexService.AuthorizeLoginResult">
+      <Item value="IncorrectNameOrPassword" priority="0" />
+      <Item value="WrongNameOrPassword" priority="0" />
+      <Item value="NoAuthorizationStarted" priority="0" />
+      <Item value="NoLoginStarted" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Server.PlayerInfo">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.IPlayer">
+      <Item value="Name" priority="1" />
+      <Item value="Color" priority="0" />
+      <Item value="Location" priority="2" />
+      <Item value="TakeTreasureCard`0" priority="0" />
+      <Item value="HandCards" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Common.PlayerColor">
+      <Item value="ToColor`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.MainPage">
+      <Item value="Unloaded" priority="0" />
+      <Item value="Update`0" priority="1" />
+      <Item value="FastPopup" priority="1" />
+      <Item value="ArrangeOverride`0" priority="0" />
+      <Item value="InvalidateArrange`0" priority="0" />
+      <Item value="myFastPopupRect" priority="0" />
+      <Item value="ActualWidth" priority="0" />
+      <Item value="ActualHeight" priority="0" />
+      <Item value="RenderSize" priority="2" />
+      <Item value="Effect" priority="0" />
+      <Item value="Opacity" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.DuplexService.PlayerInfo">
+      <Item value="Namek__BackingField" priority="1" />
+      <Item value="Colork__BackingField" priority="0" />
+      <Item value="Sexk__BackingField" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.Common.PlayerColor">
+      <Item value="Red" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.Common.Sex">
+      <Item value="Woman" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.DuplexService.AuthorizePlayerCompletedEventArgs">
+      <Item value="Error" priority="1" />
+      <Item value="Result" priority="0" />
+      <Item value="players" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.Impl.Player">
+      <Item value="Name" priority="0" />
+      <Item value="Location" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.MazePanel">
+      <Item value="Game" priority="0" />
+      <Item value="Projection" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.ICollection`1">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.AutoZoomInteractor">
+      <Item value="PanelPlacement" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.UI.UIManager">
+      <Item value="Instance" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.UIManager">
+      <Item value="ShowInFastPopup`0" priority="0" />
+      <Item value="CloseFastPopup`0" priority="0" />
+      <Item value="FastPopup" priority="0" />
+      <Item value="Popup" priority="1" />
+      <Item value="MainWindow" priority="2" />
+      <Item value="ShowInPopup`0" priority="2" />
+      <Item value="IsPopupShown`0" priority="0" />
+      <Item value="PopupElement" priority="0" />
+      <Item value="GameTablePanel" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.AutoZoomInteractor+ZoomedCardElement">
+      <Item value="Rect" priority="0" />
+      <Item value="RenderSize" priority="0" />
+      <Item value="CaptureMouse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.CardElement">
+      <Item value="MouseLeave" priority="0" />
+      <Item value="MouseMove" priority="0" />
+      <Item value="CaptureMouse`0" priority="0" />
+      <Item value="ShowBorder" priority="0" />
+      <Item value="Measure`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.MouseEventArgs">
+      <Item value="GetPosition`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Timer">
+      <Item value="Dispose`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Panel">
+      <Item value="MouseMove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.RoomElement">
+      <Item value="MouseEnter" priority="0" />
+      <Item value="Visibility" priority="1" />
+      <Item value="RoomInfo" priority="0" />
+      <Item value="MouseLeave" priority="0" />
+      <Item value="TransformToVisual`0" priority="0" />
+      <Item value="RenderSize" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.RoomZoomInteractor">
+      <Item value="OnElementMouseEnter`0" priority="0" />
+      <Item value="RegisterRoomElement`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.ZoomDirection">
+      <Item value="Up" priority="1" />
+      <Item value="Down" priority="0" />
+      <Item value="Right" priority="0" />
+      <Item value="Left" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Visibility">
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Effects.BlurEffect">
+      <Item value="Radius" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.MainPage+UIManagerImpl+BackgroundState">
+      <Item value="Opacity" priority="1" />
+      <Item value="BlurRadious" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.Server.SendEventsResult">
+      <Item value="NotReady" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.DuplexService.ReceiveGameEventsReceivedEventArgs">
+      <Item value="events" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
+      <Item value="Indexer" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.IGameEvent">
+      <Item value="GetType`0" priority="0" />
+      <Item value="WriteTo`0" priority="0" />
+      <Item value="ReadFrom`0" priority="0" />
+      <Item value="Apply`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.BinaryWriter">
+      <Item value="Write`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="ToArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.BinaryReader">
+      <Item value="ReadInt32`0" priority="2" />
+      <Item value="ReadString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Assembly">
+      <Item value="GetExecutingAssembly`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Activator">
+      <Item value="CreateInstance`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.ServerCommunicator">
+      <Item value="Game" priority="1" />
+      <Item value="GameEventApplied" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.DuplexService.ReadyStatusChangeReceivedEventArgs">
+      <Item value="isReady" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.Core.ICardDeck`1">
+      <Item value="TakeCard`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.PlaneProjection">
+      <Item value="ProjectionMatrix" priority="1" />
+      <Item value="RotationX" priority="3" />
+      <Item value="LocalOffsetX" priority="0" />
+      <Item value="LocalOffsetZ" priority="1" />
+      <Item value="LocalOffsetY" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Media3D.Matrix3D">
+      <Item value="OffsetX" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.DependencyProperty">
+      <Item value="Register`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.HandCardsElement">
+      <Item value="InvalidateArrange`0" priority="0" />
+      <Item value="XStep" priority="1" />
+      <Item value="CardSize" priority="1" />
+      <Item value="MaxAngle" priority="1" />
+      <Item value="AngleStep" priority="0" />
+      <Item value="CardHeight" priority="7" />
+      <Item value="CardWidth" priority="5" />
+      <Item value="Projection" priority="0" />
+      <Item value="Opacity" priority="0" />
+      <Item value="TransformToVisual`0" priority="0" />
+      <Item value="ActualWidth" priority="1" />
+      <Item value="Visibility" priority="1" />
+      <Item value="Name" priority="0" />
+      <Item value="NavigationAction" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.DependencyPropertyChangedEventArgs">
+      <Item value="NewValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.AnimationInfo">
+      <Item value="StartValue" priority="0" />
+      <Item value="EndValue" priority="0" />
+      <Item value="Target" priority="1" />
+      <Item value="EasingFunction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.UI.HandCardsElement">
+      <Item value="XStepProperty" priority="0" />
+      <Item value="MaxAngleProperty" priority="0" />
+      <Item value="AngleStepProperty" priority="0" />
+      <Item value="CardWidthProperty" priority="0" />
+      <Item value="CardHeightProperty" priority="0" />
+      <Item value="OpacityProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.PlaneProjection">
+      <Item value="RotationXProperty" priority="1" />
+      <Item value="LocalOffsetXProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.UI.UIUtil">
+      <Item value="Animate`0" priority="0" />
+      <Item value="StartAnimation`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.UIManagerImpl+PopupData">
+      <Item value="Popup" priority="4" />
+      <Item value="PopupElement" priority="0" />
+      <Item value="Element" priority="4" />
+      <Item value="AnimationsOnClose" priority="2" />
+      <Item value="CloseImmediately" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ManchkinQuest.UI.SizedElement">
+      <Item value="WidthProperty" priority="0" />
+      <Item value="HeightProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.GeneralTransform">
+      <Item value="Transform`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.FrameworkElement">
+      <Item value="WidthProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="MaxValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.GameTablePanel">
+      <Item value="Projection" priority="0" />
+      <Item value="ScaleTransform" priority="0" />
+      <Item value="RenderTransform" priority="0" />
+      <Item value="AnimateZoom`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.TransformGroup">
+      <Item value="Children" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.TransformCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.TranslateTransform">
+      <Item value="XProperty" priority="0" />
+      <Item value="YProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.TranslateTransform">
+      <Item value="X" priority="2" />
+      <Item value="Y" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.ScaleTransform">
+      <Item value="ScaleXProperty" priority="0" />
+      <Item value="CenterXProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.ScaleTransform">
+      <Item value="ScaleX" priority="2" />
+      <Item value="CenterY" priority="1" />
+      <Item value="CenterX" priority="1" />
+      <Item value="ScaleY" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.UserControl">
+      <Item value="Content" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.UIManagerImpl+BackgroundState">
+      <Item value="Opacity" priority="0" />
+      <Item value="BlurRadious" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ManchkinQuest.UI.PlayerPanel">
+      <Item value="Navigated" priority="0" />
+      <Item value="Placement" priority="0" />
+      <Item value="Player" priority="5" />
+      <Item value="Parent" priority="0" />
+      <Item value="Update`0" priority="0" />
+      <Item value="Background" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Grid">
+      <Item value="Children" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="076EA108-4D4A-43C0-89DB-ADBC83FDDA9A/d:src/d:Events/f:TakeTreasureCardsEvent.cs" caret="350" fromTop="15" />
+      <File id="076EA108-4D4A-43C0-89DB-ADBC83FDDA9A/d:src/d:Events/f:InitializeDecksEvent.cs" caret="410" fromTop="22" />
+      <File id="076EA108-4D4A-43C0-89DB-ADBC83FDDA9A/d:src/d:Events/f:TakeDxMCardsEvent.cs" caret="370" fromTop="17" />
+      <File id="076EA108-4D4A-43C0-89DB-ADBC83FDDA9A/d:src/d:Impl/f:CardDeck.cs" caret="424" fromTop="16" />
+      <File id="076EA108-4D4A-43C0-89DB-ADBC83FDDA9A/d:src/d:Impl/d:Cards/d:Treasure/f:TreasureCardBase.cs" caret="128" fromTop="4" />
+      <File id="076EA108-4D4A-43C0-89DB-ADBC83FDDA9A/d:src/d:Impl/d:Cards/f:TestCards.cs" caret="1565" fromTop="13" />
+      <File id="076EA108-4D4A-43C0-89DB-ADBC83FDDA9A/d:src/d:Events/f:TakeCardsEventBase.cs" caret="579" fromTop="16" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:ServerCommunicator.cs" caret="8289" fromTop="236" />
+      <File id="076EA108-4D4A-43C0-89DB-ADBC83FDDA9A/d:src/f:Images.cs" caret="1133" fromTop="24" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:CardsPanel.cs" caret="222" fromTop="7" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:SizedElement.cs" caret="118" fromTop="6" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:UIUtil.cs" caret="337" fromTop="12" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:CardZoomInteractor.cs" caret="1575" fromTop="55" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:RoomLinkElement.cs" caret="152" fromTop="7" />
+      <File id="076EA108-4D4A-43C0-89DB-ADBC83FDDA9A/d:src/d:Impl/f:Game.cs" caret="127" fromTop="6" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:App.xaml.cs" caret="815" fromTop="22" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:RoomElement.cs" caret="58" fromTop="2" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:MazeFragmentElement.cs" caret="428" fromTop="20" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:AutoZoomInteractor.cs" caret="1997" fromTop="38" />
+      <File id="076EA108-4D4A-43C0-89DB-ADBC83FDDA9A/d:src/d:Impl/f:Maze.cs" caret="1902" fromTop="56" />
+      <File id="076EA108-4D4A-43C0-89DB-ADBC83FDDA9A/d:src/f:Interfaces.cs" caret="3460" fromTop="38" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:MazePanelBase.cs" caret="2406" fromTop="48" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:MazePanel.cs" caret="1847" fromTop="46" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:HandCardsElement.cs" caret="161" fromTop="5" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml" caret="349" fromTop="5" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:UIManager.cs" caret="487" fromTop="20" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:PlayerPanel.cs" caret="7954" fromTop="38" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:CardElement.cs" caret="1490" fromTop="35" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:UIManagerImpl.xaml.cs" caret="1722" fromTop="14" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="5970" fromTop="26" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:PlayerPanel.cs" caret="2234" fromTop="55" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:PlayerPanel.cs" caret="3376" fromTop="38" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:PlayerPanel.cs" caret="1854" fromTop="27" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:PlayerPanel.cs" caret="1756" fromTop="23" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="6974" fromTop="56" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="2784" fromTop="55" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="192" fromTop="4" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="4409" fromTop="53" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="4961" fromTop="70" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="6974" fromTop="20" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:HandCardsElement.cs" caret="161" fromTop="5" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="6974" fromTop="60" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="6974" fromTop="60" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:CardElement.cs" caret="1490" fromTop="39" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:CardElement.cs" caret="341" fromTop="13" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:CardElement.cs" caret="235" fromTop="7" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:CardElement.cs" caret="990" fromTop="32" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:UIManagerImpl.xaml.cs" caret="4647" fromTop="45" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:PlayerPanel.cs" caret="206" fromTop="7" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:PlayerPanel.cs" caret="1921" fromTop="62" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:PlayerPanel.cs" caret="7123" fromTop="44" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:PlayerPanel.cs" caret="7121" fromTop="46" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:PlayerPanel.cs" caret="6790" fromTop="38" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="6974" fromTop="26" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:CardElement.cs" caret="1490" fromTop="54" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:CardElement.cs" caret="1601" fromTop="38" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:UIManagerImpl.xaml.cs" caret="3329" fromTop="40" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="5082" fromTop="3" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="6978" fromTop="39" />
+      <File id="DEC8F1B6-8D37-45D5-A712-0D00DC392141/f:GameTablePanel.xaml.cs" caret="6076" fromTop="27" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

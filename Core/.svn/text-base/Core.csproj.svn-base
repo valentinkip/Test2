@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{076EA108-4D4A-43C0-89DB-ADBC83FDDA9A}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ManchkinQuest.Core</RootNamespace>
+    <AssemblyName>Core</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="system" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Events\InitializeDecksEvent.cs" />
+    <Compile Include="src\Events\TakeCardsEventBase.cs" />
+    <Compile Include="src\Events\TakeDxMCardsEvent.cs" />
+    <Compile Include="src\Events\TakeTreasureCardsEvent.cs" />
+    <Compile Include="src\Impl\CardDeck.cs" />
+    <Compile Include="src\StuffManager.cs" />
+    <Compile Include="src\Impl\Cards\DxM\ClericCard.cs" />
+    <Compile Include="src\Impl\Cards\DxM\DwarfCard.cs" />
+    <Compile Include="src\Impl\Cards\DxM\DxMCardBase.cs" />
+    <Compile Include="src\Impl\Cards\DxM\ElfCard.cs" />
+    <Compile Include="src\Impl\Cards\DxM\HalfBreededCard.cs" />
+    <Compile Include="src\Impl\Cards\DxM\HalflingCard.cs" />
+    <Compile Include="src\Impl\Cards\DxM\MonsterCardBase.cs" />
+    <Compile Include="src\Impl\Cards\DxM\SuperManchkinCard.cs" />
+    <Compile Include="src\Impl\Cards\TestCards.cs" />
+    <Compile Include="src\Impl\Cards\DxM\ThiefCard.cs" />
+    <Compile Include="src\Impl\Cards\Treasure\TreasureCardBase.cs" />
+    <Compile Include="src\Impl\Cards\DxM\WarriorCard.cs" />
+    <Compile Include="src\Impl\Cards\DxM\WizardCard.cs" />
+    <Compile Include="src\Impl\Maze.cs" />
+    <Compile Include="src\Impl\Rooms\BugHouseRoom.cs" />
+    <Compile Include="src\Impl\Rooms\EnterRoom.cs" />
+    <Compile Include="src\Impl\Rooms\HallOfShameRoom.cs" />
+    <Compile Include="src\Impl\Rooms\NormalRoomBase.cs" />
+    <Compile Include="src\Impl\Rooms\RoomCard.cs" />
+    <Compile Include="src\Impl\Rooms\SeeminglyEmptyRoom.cs" />
+    <Compile Include="src\Impl\Rooms\SpikedPitRoom.cs" />
+    <Compile Include="src\Impl\Game.cs" />
+    <Compile Include="src\Images.cs" />
+    <Compile Include="src\Interfaces.cs" />
+    <Compile Include="src\Impl\Player.cs" />
+    <Compile Include="src\Impl\RoomLinks.cs" />
+    <Compile Include="src\CoreUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Cards\DxMBack.jpg" />
+    <Resource Include="resources\Cards\DxM\Cleric.jpg" />
+    <Resource Include="resources\Cards\DxM\Dwarf.jpg" />
+    <Resource Include="resources\Cards\DxM\Elf.jpg" />
+    <Resource Include="resources\Cards\DxM\HalfBreeded.jpg" />
+    <Resource Include="resources\Cards\DxM\Halfling.jpg" />
+    <Resource Include="resources\Cards\DxM\SuperManchkin.jpg" />
+    <Resource Include="resources\Cards\DxM\Thief.jpg" />
+    <Resource Include="resources\Cards\DxM\Warrior.jpg" />
+    <Resource Include="resources\Cards\DxM\Wizard.jpg" />
+    <Resource Include="resources\Cards\MonsterBack.jpg" />
+    <Resource Include="resources\Cards\TreasureBack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Rooms\Enter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\RoomLinks\HiddenDoor.png" />
+    <Resource Include="resources\RoomLinks\LockedDoor.png" />
+    <Resource Include="resources\RoomLinks\OpenPassageway.png" />
+    <Resource Include="resources\RoomLinks\RegularDoor.png" />
+    <Resource Include="resources\RoomLinks\Wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Rooms\BugHouse.png" />
+    <Resource Include="resources\Rooms\HallOfShame.png" />
+    <Resource Include="resources\Rooms\SeeminglyEmpty.png" />
+    <Resource Include="resources\Rooms\SpikedPit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{4ECE2D5B-113F-4396-8F79-47B0FB8CA337}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Manchkin-Blue.png" />
+    <Resource Include="resources\Manchkin-Green.png" />
+    <Resource Include="resources\Manchkin-Red.png" />
+    <Resource Include="resources\Manchkin-Yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Cards\Treasure\TestCard.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

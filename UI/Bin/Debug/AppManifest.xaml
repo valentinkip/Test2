@@ -1,0 +1,9 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="UI" EntryPointType="ManchkinQuest.UI.App" RuntimeVersion="4.0.50826.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="UI" Source="UI.dll" />
+    <AssemblyPart x:Name="Common" Source="Common.dll" />
+    <AssemblyPart x:Name="Core" Source="Core.dll" />
+    <AssemblyPart x:Name="System.ServiceModel.Extensions" Source="System.ServiceModel.Extensions.dll" />
+    <AssemblyPart x:Name="System.ServiceModel.PollingDuplex" Source="System.ServiceModel.PollingDuplex.dll" />
+  </Deployment.Parts>
+</Deployment>

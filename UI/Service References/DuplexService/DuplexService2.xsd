@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ManchkinQuest.Common" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ManchkinQuest.Common" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="PlayerColor">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Red" />
+      <xs:enumeration value="Green" />
+      <xs:enumeration value="Blue" />
+      <xs:enumeration value="Yellow" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="PlayerColor" nillable="true" type="tns:PlayerColor" />
+  <xs:simpleType name="Sex">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Man" />
+      <xs:enumeration value="Woman" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Sex" nillable="true" type="tns:Sex" />
+</xs:schema>
